@@ -40,7 +40,7 @@ describe("Test the sum of prime numbers within a given number", function() {
   });
 
   it("should return 'Invalid Input' when the input value is undefined", function() {
-    assert(lib.sumOfPrimes(A) == "Invalid Input");
+    assert(lib.sumOfPrimes() == "Invalid Input");
     });
 
   it("should return 'Invalid Input' for string input", function() {
