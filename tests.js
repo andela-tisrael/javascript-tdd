@@ -47,4 +47,8 @@ describe("Test the sum of prime numbers within a given number", function() {
     assert(lib.sumOfPrimes("A") == "Invalid Input");
   });
 
+  it("should not accept special characters", function() {
+    assert(lib.sumOfPrimes("!") == "Invalid Input");
+  });
+
 });
