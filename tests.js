@@ -31,8 +31,8 @@ describe("Test the sum of prime numbers within a given number", function() {
     assert(lib.sumOfPrimes(10)!= undefined);
   });
 
-  it("should return 'Cannot Calculate sum of prime for negative numbers'", function() {
-    assert(lib.sumOfPrimes(-1) == "Cannot Calculate sum of prime for negative numbers");
+  it("should return 'Cannot Calculate sum of prime for negative numbers.'", function() {
+    assert(lib.sumOfPrimes(-1) == "Cannot Calculate sum of prime for negative numbers.");
   });
 
   it("should return 'Cannot Calculate sum of prime for negative numbers.'", function() {
