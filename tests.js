@@ -25,8 +25,6 @@ describe("Test the sum of prime numbers within a given number", function() {
   it("should return 77 as the sum of prime of 20", function() {
     assert(lib.sumOfPrimes(20)==77);
   });
-
-
   it("should return a value", function() {
     assert(lib.sumOfPrimes(10)!= undefined);
   });
